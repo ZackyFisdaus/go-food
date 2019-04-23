@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   Collapse,
   Navbar,
@@ -7,12 +7,12 @@ import {
   Nav,
   NavItem,
   NavLink
-} from 'reactstrap';
+} from "reactstrap";
 export default class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar style={{ backgroundColor: 'red' }} color="faded" light>
+        <Navbar style={{ backgroundColor: "blue" }} color="faded" light>
           <NavbarBrand href="/" className="mr-auto">
             Go-Food
           </NavbarBrand>
